@@ -44,9 +44,19 @@ Users[1].email
 console.log(tinderUser);
 console.log(Object.keys(tinderUser));
 
+const course = {
+    coursename : "js in hindi",
+    price:"999",
+    courseInstructor :"hitesh"
+}
+const{courseInstructor}= course
+console.log(courseInstructor);
 
-
-
+// {
+//     "name":"Hitesh",
+//     "Coursename" :"js in hindi",
+//     "price" :"999"
+// }
 
 
 
